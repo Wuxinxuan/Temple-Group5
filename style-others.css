@@ -1,0 +1,70 @@
+body {
+    background-image:url('https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01b8cd5568514d0000009fcb9fcdb8.jpg%402o.jpg&refer=http%3A%2F%2Fimg.zcool.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1643341160&t=4c434be77a92c38871b9f042ab5aa00e');
+    background-size: 350px 500px;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position: left bottom;
+    background-color: black;
+}
+
+h1 { 
+    font-family:Comic Sans MS;
+    font-stretch: normal;
+    font-weight: bold;
+    font-size: 40px;
+    margin: 20px;
+    color:black;
+    background-color: peru;
+}
+
+.nav ul{
+    list-style: none ;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:black;
+}
+
+.nav li {
+    float: left;
+}
+
+.nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: fantasy;
+    
+}
+
+.nav li a:hover {
+    background-color: rgb(274,186,111);
+}
+
+nav .active {
+    background-color: black;
+}
+
+.transbox {
+    maigin: 300px 500px;
+    background-color: #c9c5c5;
+    border: 1px solid balck;
+    opacity: 0.6;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+#exhibit{
+    margin: auto;
+    display: grid;
+    grid-gap: 10px;
+    font-size: 10px;
+    grid-timplate-columns: repeat(4, 275px);
+}
+
+#grid_cell {
+    align-self: baseline;
+    text-align: left;
+}

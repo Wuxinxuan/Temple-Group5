@@ -1,0 +1,50 @@
+
+
+
+<head>
+    <mata charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="../style-others.css"
+</head>
+
+<body align="center">
+
+  <div class="wrapper" >
+      <h1>City God Temple</h1>
+  </div>
+
+  <hr>
+
+  <div class="nav">
+      <ul>
+         <li><a href="{{ site.baseurl }}/"> Home </a></li>
+         <li><a href="{{ site.baseurl }}/Gallery"> Gallery </a></li>
+         <li><a href="{{ site.baseurl }}/Search"> Search </a></li>
+         <li style="float:right"><a href="{{ site.baseurl }}/about"> About </a></li>   
+     </ul>   
+  </div>
+
+  <hr>
+
+  <div class="transbox">
+        <img src="{{ page.index_image_url }}" width=200px height=200px>
+        <p> {{ page.name }} </p>
+        <p> Build Time: {{ page.time }} </p> <p> Site: {{ page.site }}  </p>
+        <p> {{ page.introduction }} </p>
+        <p> Story <br> {{ page.story }} <br> </p>
+  </div>
+
+  <hr>
+
+  <div>
+
+      <div id="footer">
+        <p>Created with <a href = "https://jekyllrb.com/">jekyll</a> by <a href = "{{site.baseurl}}/about">Us</a> in 2021</p>
+      </div>
+
+  </div>
+
+</div>
+ 
+</body>
+© 2021 GitHub, Inc.
